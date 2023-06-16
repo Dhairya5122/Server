@@ -19,6 +19,7 @@ const SignupSchema = new Schema({
   password: {
     type: String,
   },
+  // register: { type: Schema.Types.ObjectId, ref: "registers" },
 });
 
-module.exports = mongoose.model("Register", SignupSchema);
+module.exports = mongoose.model("user", SignupSchema);

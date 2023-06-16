@@ -2,7 +2,7 @@ const express = require("express");
 const { default: mongoose } = require("mongoose");
 const app = express();
 mongoose
-  .connect("mongodb://0.0.0.0:27017/jsfashion")
+  .connect("mongodb://sql300.infinityfree.com/if0_34389616_jsfashion")
   .then(() => {
     console.log("Connected to database");
   })
