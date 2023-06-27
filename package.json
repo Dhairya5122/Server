@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "tunnel": "cld tunnel --url http://localhost:4000"
   },
   "author": "",
