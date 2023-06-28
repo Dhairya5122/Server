@@ -17,7 +17,7 @@ router.post("/register", async (req, res) => {
         data: { username, name, mobile, email, password },
       });
     }
-
+    console.log("success");
     const newRegister = new Register({
       username,
       name,
