@@ -6,8 +6,6 @@ const router = express.Router();
 
 router.post("/register", async (req, res) => {
   try {
-    const user = await Register.findOne({ email: req.body.email });
-
     const { username, name, mobile, email, password } = req.body;
 
     console.log(req.body);
