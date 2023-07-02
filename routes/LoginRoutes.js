@@ -51,12 +51,12 @@ router.post("/login", async (req, res) => {
           msg: "Email or Password Does not Match",
           data: {},
         });
-        console.log("password doesnot match");
+        console.log("Please Enter Correct Password !!!");
       }
     } else {
       res.status(400).json({
         success: false,
-        msg: "Please Register your account",
+        msg: "Please Register Your Account",
         data: {},
       });
     }
